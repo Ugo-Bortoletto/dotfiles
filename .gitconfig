@@ -1,7 +1,4 @@
 [init]
 	defaultBranch = main
-[user]
-	name = Ugo Bortoletto
-	email = ugobortoletto@gmail.com
 [color]
 	ui = auto
