@@ -1,0 +1,6 @@
+# Include our custom modules
+include "${XDG_CONFIG_HOME:-$HOME/.config}/sway/config.d/*.conf"
+
+# Default config
+include /etc/sway/config.d/*
+
