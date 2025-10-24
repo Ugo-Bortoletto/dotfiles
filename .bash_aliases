@@ -1,7 +1,7 @@
 # ALIAS GLOBALS
-alias rm='rm -iv'
-alias cp='cp -iv'
-alias mv='mv -iv'
+#alias rm='rm -iv'
+#alias cp='cp -iv'
+#alias mv='mv -iv'
 
 # NAVIGATION
 alias ll='ls -lhA --color=auto'
@@ -36,15 +36,15 @@ alias pipup='pip install --upgrade pip setuptools wheel'
 # alias install="sudo apt install"
 
 # Arch Linux
-alias update='sudo pacman -Sy'
-alias upgrade='sudo pacman -Syu'
-alias install='sudo pacman -S'
-alias remove='sudo pacman -Rns'
-alias search='pacman -Ss'
-alias info='pacman -Si'
-alias list='pacman -Qe'     # liste des paquets explicitement installés
-alias cleanup='sudo pacman -Rns $(pacman -Qdtq)'  # supprime orphelins
-alias pkgfiles='pacman -Ql' # liste fichiers d’un paquet
+#alias update='sudo pacman -Sy'
+#alias upgrade='sudo pacman -Syu'
+#alias install='sudo pacman -S'
+#alias remove='sudo pacman -Rns'
+#alias search='pacman -Ss'
+#alias info='pacman -Si'
+#alias list='pacman -Qe'
+#alias cleanup='sudo pacman -Rns $(pacman -Qdtq)'
+#alias pkgfiles='pacman -Ql'
 
 # -- AUR helpers
 if command -v yay >/dev/null 2>&1; then
@@ -57,13 +57,13 @@ fi
 
 
 # SYSTEME
-alias reboot='sudo systemctl reboot'
-alias shutdown='sudo systemctl poweroff'
-alias sleepnow='systemctl suspend'
-alias journal='sudo journalctl -xe'
-alias top10='ps -eo pid,comm,%mem,%cpu --sort=-%mem | head'
-alias myip='ip route get 1.1.1.1 | awk "{print \$7}"'
-alias ports='sudo ss -tulnp'
+#alias reboot='sudo systemctl reboot'
+#alias shutdown='sudo systemctl poweroff'
+#alias sleepnow='systemctl suspend'
+#alias journal='sudo journalctl -xe'
+#alias top10='ps -eo pid,comm,%mem,%cpu --sort=-%mem | head'
+#alias myip='ip route get 1.1.1.1 | awk "{print \$7}"'
+#alias ports='sudo ss -tulnp'
 
 
 # AUTRES UTILITAIRES
