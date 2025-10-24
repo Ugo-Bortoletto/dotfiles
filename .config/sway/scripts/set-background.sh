@@ -5,7 +5,7 @@ WALLPAPER="$HOME/.config/sway/scripts/arch-black-4k.png"
 COLOR="#24273a"
 
 
-if [[ -f "WALLPAPER" ]]; then
+if [[ -f "$WALLPAPER" ]]; then
     swaymsg "output * bg $WALLPAPER fill"
     #swaybg -i "$WALLPAPER" -m fill &
 else
