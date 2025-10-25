@@ -1,0 +1,64 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 20,
+
+    "include": [
+        "~/.config/waybar/modules.jsonc"
+    ],
+
+    "modules-left": [
+        "user",
+        "sway/workspaces",
+        "sway/mode"
+    ],
+
+
+    "modules-center": [
+        "clock"
+    ],
+
+
+    "modules-right": [
+        "battery"
+    ]
+
+    /*
+    All modules available:
+    backlight/slider
+    backlight
+    battery
+    bluetooth
+    cpu
+    cava
+    cffi
+    clock
+    custom
+    disk
+    gamemode
+    idle_inhibitor
+    image
+    jack
+    keyboard-state
+    sway/language
+    load
+    mpd
+    mpris
+    memory
+    network
+    power-profiles-daemon
+    privacy
+    pulseaudio/slider
+    pulseaudio
+    sndio
+    systemd-failed-units
+    wlr/taskbar
+    temperature
+    tray
+    upower
+    user
+    wireplumber
+    workspaces
+    */
+}
+
